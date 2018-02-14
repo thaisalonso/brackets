@@ -4,11 +4,12 @@ Verifica se a ordem dos parênteses, colchetes e chaves de uma String recebida �
 A ordem é considerada válida se segue as seguintes condições:
 * Não contém parênteses, colchetes e chaves sem par;
 * O conjunto de caracteres aninhados em um par tem também correspondência de um par.
+
 Exemplos:
-* (){}[] é válido
-* [{()}](){} é válido
-* []{() é inválido
-* [{)] é inválido
+* `(){}[]` é válido
+* `[{()}](){}` é válido
+* `[]{()` é inválido
+* `[{)]` é inválido
 
 ## Requisitos
 
